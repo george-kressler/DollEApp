@@ -1,3 +1,10 @@
-setuptools
+# Core dependencies for the application
+openai
+tkinter
+ttkthemes
+requests
+Pillow 
+
+# Testing dependencies
 pytest==4.3.1
 pytest-cov==2.6.1

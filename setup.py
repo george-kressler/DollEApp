@@ -8,23 +8,35 @@ _VERSION = '0.1'
 setup(
     name='DollEApp',
     version=_VERSION,
-    description='An app that allows a user to create images with a prompt.',
+    description='An app that allows a user to create images with a prompt using OpenAI’s DALL-E.',
     long_description=_README_MD,
+    long_description_content_type='text/markdown',
     classifiers=[
-        # TODO: typing.
-        "Typing :: Typed"
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: End Users/Desktop',
+        'Topic :: Multimedia :: Graphics',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
     ],
-    url='https://github.com/george-kressler/DollEApp.git',
-    download_url='https://github.com/.../.../tarball/{}'.format(_VERSION),  # TODO.
-    author='George A. Kressler', 
+    url='https://github.com/george-kressler/George-Kressler-Basic-Doll-E-API-Integration-Application.git',
+    author='George A. Kressler',
     author_email='georgekressler@gmail.com',
-    packages=find_packages(include=['project*']),  # TODO.
-    test_suite="testing",
+    packages=find_packages(),
+    install_requires=[
+        'openai',
+        'requests',
+        'Pillow',
+        'ttkthemes',
+    ],
+    python_requires='>=3.6',
+    test_suite="tests",
     setup_requires=["pytest-runner"],
     tests_require=["pytest", "pytest-cov"],
-    install_requires=["neuraxle"],
     include_package_data=True,
-    license='TODO',  # TODO: set your license string. 
-    keywords='empty project TODO keywords'
+    license='C00', 
+    keywords='DALL-E, OpenAI, image generation, Tkinter GUI'
 )
-
