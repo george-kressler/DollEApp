@@ -13,7 +13,7 @@ This project was made to practice using different types of API's and integrating
 [View more of my work at `my website`](https://github.com/george-kressler/George-Kressler-Basic-Doll-E-API-Integration-Application/blob/a1ec07840d2aa9182d8890d731e88825ef63c4f7/Example%20Video.mov)
 
 
-[![](example_video.mov)](url)
+[![Example Video](https://img.youtube.com/vi/s7qp1xT5Wcg/maxresdefault.jpg)](https://youtu.be/s7qp1xT5Wcg)
 
 ## Adapting it for your own project
 
