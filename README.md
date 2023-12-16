@@ -1,14 +1,19 @@
-# [New Empty Python Project Base](https://github.com/Neuraxio/New-Empty-Python-Project-Base)
+# [George Kressler Basic Doll E API Integration Application](https://github.com/george-kressler/George-Kressler-Basic-Doll-E-API-Integration-Application.git)
 
 > This is just what you need to start a new Python project.
 
 Simply use this project template to start new python projects.
 
-## Using this template for your project (how to)
+## Introduction 
 
-You can now automatically create a new project based on this template by [clicking here on `Use this template`](https://github.com/Neuraxio/New-Empty-Python-Project-Base/generate), or by clicking on the button above in the repo, as depicted in the image below. If you don't use GitHub, you may as well simply clone this repository. 
+'George Kressler Basic Doll E API Integration Application' is a Python-based application that uses the OpenAI API to generate images using DALL-E. This application is built with Tkinter and provides an interface for generating images based on user-supplied prompts.
 
-[![](how_to_use_template.jpg)](https://github.com/Neuraxio/New-Empty-Python-Project-Base/generate)
+This project was made to practice using different types of API's and integrating them into working apps.
+
+[View more of my work at `my website`](https://www.georgekressler.com)
+
+
+[![](example_video.mov)](url)
 
 ## Adapting it for your own project
 
